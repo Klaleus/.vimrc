@@ -22,3 +22,15 @@ set softtabstop=4
 
 " Convert implicit indentation to four spaces.
 set shiftwidth=4
+
+" Enable search highlighting.
+set hlsearch
+
+" Enable instant search results, before pressing enter.
+set incsearch
+
+" Disable case sensitivity while searching.
+set ignorecase
+
+" Enable case sensitivity while searching if the search term contains uppercase letters.
+set smartcase
