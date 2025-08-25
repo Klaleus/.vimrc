@@ -34,3 +34,7 @@ set ignorecase
 
 " Enable case sensitivity while searching if the search term contains uppercase letters.
 set smartcase
+
+" Expose non-obvious whitespace characters.
+set list
+set listchars=trail:·,nbsp:·,tab:··
