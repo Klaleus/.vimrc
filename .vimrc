@@ -42,12 +42,10 @@ set smartcase
 set list
 set listchars=trail:·,nbsp:·,tab:··
 
-" Remap "ss" to exit insert mode.
-inoremap ss <Esc>
-
-" Remap "oo" to insert an empty padded line.
-nnoremap oo o<Esc>O
-
-" Remap potential scroll commands such that they always center the cursor on screen.
+" Remap some scroll commands to also center the cursor vertically.
 nnoremap <C-u> <C-u>zz
 nnoremap <C-d> <C-d>zz
+
+" Always use hidden mode for buffers.
+" This enables swapping without saving or discarding changes.
+set hidden
